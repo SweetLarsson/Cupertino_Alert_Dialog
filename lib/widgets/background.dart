@@ -9,7 +9,7 @@ class Background extends StatelessWidget {
     return Container(
       decoration: const BoxDecoration(
         image: DecorationImage(
-          image: AssetImage(pee),
+          image: AssetImage(bckImage),
           fit: BoxFit.cover,
         ),
       ),
