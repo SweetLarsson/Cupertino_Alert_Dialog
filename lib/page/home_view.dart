@@ -23,8 +23,7 @@ class HomePage extends GetView<HomeController> {
 
             /// The enhanced subject to the background
             child: const Center(
-              child: MyDialog(
-              ),
+              child: MyDialog(),
             ),
           ),
         ],

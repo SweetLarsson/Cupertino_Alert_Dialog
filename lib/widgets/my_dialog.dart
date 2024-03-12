@@ -28,7 +28,7 @@ class MyDialog extends StatelessWidget {
       ),*/
 
       /// The alert content
-      content:  Text(
+      content: const Text(
         target,
         style: TextStyle(
           fontWeight: FontWeight.w600,
@@ -41,10 +41,10 @@ class MyDialog extends StatelessWidget {
         ///Decline button
         Center(
           child: TextButton(
-            onPressed: onTap,
-            child: Text(
+            onPressed: () {},
+            child: const Text(
               decline,
-              style:  TextStyle(
+              style: TextStyle(
                 color: Colors.red,
                 fontWeight: FontWeight.bold,
               ),
